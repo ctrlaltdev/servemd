@@ -1,5 +1,5 @@
 {
-  "name": "servemd",
+  "name": "servem",
   "version": "1.0.0",
   "description": "Static file and Markdown serving and directory listing",
   "scripts": {
