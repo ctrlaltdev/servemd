@@ -15,7 +15,7 @@ const checkForUpdate = require('update-check');
 const chalk = require('chalk');
 const arg = require('arg');
 const {write: copy} = require('clipboardy');
-const handler = require('serve-handler');
+const handler = require('servemd-handler');
 const schema = require('@zeit/schemas/deployment/config-static');
 const boxen = require('boxen');
 const compression = require('compression');
@@ -50,7 +50,7 @@ const updateCheck = async (isDebugging) => {
 		return;
 	}
 
-	console.log(`${chalk.bgRed('UPDATE AVAILABLE')} The latest version of \`serve\` is ${update.latest}`);
+	console.log(`${chalk.bgRed('UPDATE AVAILABLE')} The latest version of \`servemd\` is ${update.latest}`);
 };
 
 const getHelp = () => chalk`
