@@ -12,7 +12,7 @@
   ],
   "repository": "ctrlaltdev/servemd",
   "bin": {
-    "serve": "./bin/servemd.js"
+    "servemd": "./bin/servemd.js"
   },
   "keywords": [
     "now",
