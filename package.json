@@ -1,6 +1,6 @@
 {
   "name": "servem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Static file and Markdown serving and directory listing",
   "scripts": {
     "test": "yarn lint",
